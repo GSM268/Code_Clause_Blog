@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Mood(y)</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon_1.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="light-theme">
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="./assets/images/books-and-people-logo.svg"
+              alt="The Moody Logo"
+              width="250"
+              height="100"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/books-and-people-logo.svg"
+              alt="The Moody Logo"
+              width="250"
+              height="100"
+              class="logo-dark"
+            />
+          </a>
+
+          <div class="blog-name">
+            <h1
+              style="
+                font-family: 'Alkatra', cursive;
+                color: #667fea;
+                font-size: 60px;
+              "
+            >
+              The Mood(y)
+            </h1>
+          </div>
+
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Series</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Introspection</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Stories</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+      - #HERO SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Hi, I'm <b>Gargi&nbsp;Mhaskar</b>. <br />A Writer
+            </h1>
+
+            <p class="h3">I write sometimes.</p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Contact Me</a>
+              <a href="#" class="btn btn-secondary">About Me</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img
+                src="./assets/images/author_4.png"
+                alt="Gargi Mhaskar"
+                class="hero-img"
+              />
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--
+          - BLOG SECTION
+        -->
+
+          <div class="blog">
+            <h2 class="h2">Latest Blog Post</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/roaring_20s.jpg"
+                    alt="Roaring 20s"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2022/01/roaring-20s.html" class="h3"> Roaring 20s </a>
+                  </h3>
+
+                  <p class="blog-text">
+                    I’m going to turn 20 in a few days. That’s 2 decades, 240
+                    months, or 7300 days that I have been breathing and walking
+                    on the face of the earth. Frankly, it’s extremely weird to
+                    feel as if 20 years has been a very long period of time when
+                    the average human lifespan is about 70 years, but here we
+                    are.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-31">Jan 31, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/letters.jpg"
+                    alt="Letters to Nobody"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a
+                      href="https://teenagemood.blogspot.com/2021/06/letters-to-nobody.html"
+                      class="h3"
+                      >Letters to Nobody</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    2nd March, 2021 To Nobody in particular Dearest Nobody It
+                    feels absolutely weird to write a letter to the one body in
+                    this world that knows every single thing about me, every
+                    single thought that runs through my mind, every little
+                    emotion that affects me ever so slightly but, nevertheless,
+                    you too deserve a heartfelt letter once in a while.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-06-28">Jun 28, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/dear_2019.png"
+                    alt="Dear 2019"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2019/01/dear-2019.html" class="h3">Dear 2019...</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Dear 2019, I know that there is a horde of people requesting
+                    you to be kinder than 2018, to be more supportive, joyful
+                    and eventful. I don't want any of that. That's not because
+                    2018 was my best year because it wasn't, but then again none
+                    of them were! I want you to be a blank story book where I
+                    can write down part 17
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2019-01-04">Jan 04, 2019</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/stories.jpg"
+                    alt="Stories"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Stories</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2018/12/stories-everyday-we-see-hundreds-of.html" class="h3">Stories</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Everyday we see hundreds of people, in the bus, in the
+                    schools,colleges or offices. Many people we simply ignore,
+                    some we appreciate and some we even detest at first glance.
+                    Very rarely do we coincidentally spot a familiar face in the
+                    crowd. Somehow in spite of not knowing anyone, I manage to
+                    form an opinion about them, from the way they walk, or the
+                    way they stand, the way they interact with people around
+                    them and even some other miscellaneous actions.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-10">Nov 10, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/life_goals.jpg"
+                    alt="Life Goals"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2018/11/life-goals.html" class="h3">Life Goals</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    A majority of us have 'life goals’, dreams that we want to
+                    work towards and convert into reality. There are the usual
+                    life goals like being the best in your chosen field and
+                    earning loads of money, fame and respect. Then there are the
+                    more noble ones like making discoveries and innovations that
+                    change the whole world or serving the country for the
+                    betterment of the people. ‘Life goals’ have become a must
+                    have thing. Everyone ponders upon them. Life goals are now
+                    considered to be one of life's big questions; 'What do I
+                    want to achieve by the time I take my last breath?’
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2018-11-08">Nov 8, 2019</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/conversation.jpeg"
+                    alt="Conversation"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2018/11/conversation.html" class="h3">Conversation</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    I lived in Australia for a year. There, everyone had a habit
+                    of greeting each other when they met. Every conversation
+                    started with a smile and a simple question, 'how are you
+                    today?’, and ended with a even bigger grin, a thank you and
+                    a 'hope you have a nice day!’. Everyone; family friends,
+                    shopkeepers, bus drivers, waiters etc, was treated with the
+                    same manners and politeness. I love this little custom.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2019-11-08">Nov 8, 2019</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/unbreakable.jpg"
+                    alt="Unbreakable"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Introspection</button>
+
+                  <h3>
+                    <a href="https://teenagemood.blogspot.com/2018/11/unbreakable.html" class="h3">Unbreakable</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Recently I went to a shopping festival. It was brimming with
+                    innovative goods, excited people and hardworking, able
+                    salesman. Walking by the stalls, one thing was apparent,
+                    majority salesmen were proud of their goods being
+                    'unbreakable’. There were demonstrations everywhere with the
+                    vendors hitting the walls with the products, throwing them
+                    on the floor, jumping on them well you get the picture.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author_4.png"
+                        alt="Gargi Mhaskar"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Gargi Mhaskar</a>
+
+                      <p class="text-sm">
+                        <time datetime="2018-11-04">Nov 4, 2018</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <button class="btn load-more">Load More</button>
+          </div>
+
+          <!--
+          - ASIDE
+        -->
+
+          <div class="aside">
+            <div class="topics">
+              <h2 class="h2">Topics</h2>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <p>Introspection</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                </div>
+
+                <p>Stories</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <p>Series</p>
+              </a>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Newsletter</h2>
+
+              <div class="wrapper">
+                <p>
+                  Subscribe to my blogs if you like reading introspective ramblings of the mind.
+                </p>
+
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="#" class="footer-logo">
+            <img
+              src="./assets/images/books-and-people-logo.svg"
+              alt="The Moody Logo"
+              width="250"
+              height="100"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/books-and-people-logo.svg"
+              alt="The Moody Logo"
+              width="250"
+              height="100"
+              class="logo-dark"
+            />
+          </a>
+
+          <p class="footer-text">
+            Just a girl writing as life happens.
+          </p>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Quick Links</p>
+
+          <ul>
+
+            <li>
+              <a href="#" class="footer-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Legalities</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Privacy Notice</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms Of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="copyright">
+        &copy; Copyright 2023 <a href="#"></a>
+      </p>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.min.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
